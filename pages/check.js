@@ -116,7 +116,7 @@ export default function Home() {
       <main id="main" className={styles.main}>
             <div className={styles.profileCard}>
             <div id="banner" style={{"height": "105px", "background": "transparent"}}></div>
-            <img id="avatar" width="120px" draggable="false" style={{"borderRadius": "50%", "border": "8px solid #18191C", "zIndex": "5", "marginTop": "-57px", "marginLeft": "16px"}}></img>
+            <img alt="avatar" id="avatar" width="120px" draggable="false" style={{"borderRadius": "50%", "border": "8px solid #18191C", "zIndex": "5", "marginTop": "-57px", "marginLeft": "16px"}}></img>
             <a id="invite" className={styles.button} target="_blank">Invite Bot</a>
             <br></br>
             <div style={{"display": "inline-block"}}>
